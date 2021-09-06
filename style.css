@@ -207,7 +207,8 @@ footer .credits .author-2 .image img {
 }
 
 footer .credits .author-2 p a {
-    color: rgb(59, 189, 139);
+    color: inherit;
+    /* color: rgb(59, 189, 139); */
     text-decoration: none;
     /* font-weight: ; */
     
