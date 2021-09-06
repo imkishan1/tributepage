@@ -196,7 +196,7 @@ footer .credits .author-2 .image {
     height: 40px;
     overflow: hidden;
     border-radius: 50%;
-    margin-right: 16px;
+    margin-right: 10px;
 
 }
 footer .credits .author-2 .image img {
@@ -250,4 +250,13 @@ footer .credits .copyright a{
     footer .credits .author-2 {
         margin-bottom: 12px;
     }
+    
+footer .credits .author-2 .image {
+    width: 25px;
+    height: 25px;
+}
+footer .credits .author-2 .image img {
+    width: 25px;
+    height: 25px;
+}
 }
