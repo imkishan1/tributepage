@@ -145,6 +145,7 @@ body{
     margin-bottom: 10px;
     
 }
+
 .author {
     color: gray;
     margin-top:16px;
@@ -222,21 +223,33 @@ footer .credits .copyright a{
     flex: 1 1 auto;
     transition: 0.2s all ease-in-out;
 }
-
+.quote-box{
+    color:rgb(103, 155, 212) !important;
+    font-weight: 400;
+    font-size: 1.1rem;
+    max-width: 400px;  
+    margin-top: 16px; 
+    margin-bottom: 16px;
+}
 @media only screen and (max-width: 1100px){
 
     .blog-flex .section2 {
         
         transform: translateY(0px);
         /* height: fit-content; */
+        display: none;
        
     }
+    
 }
 @media only screen and (min-width: 1100px){
 
   
 footer .credits .copyright a:hover{
     color: rgb(32, 160, 111);
+}
+.quote-box{
+    display: none;
 }
 }
 @media only screen and (max-width: 768px){
